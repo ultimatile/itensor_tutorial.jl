@@ -39,9 +39,9 @@ function main()
   # calculate the exact ground state energy
   exact_ene = 0.0
   isodd(N) && @warn("N is odd. The output of the exact ground state energy is invalid.")
+  !periodic && @warn("The open boundary condition is applied. The output of the exact ground state energy is invalid.") 
   for i in 1:2:N-1
     q = i * pi / N
-    #exact_ene += sqrt((h-0.5J*cos(q))^2+0.25(J*sin(q))^2) 
     exact_ene += sqrt(h^2 + 0.25J^2 - h*J*cos(q))
   end
   println("Ground state energy (analytical) = ", -exact_ene)

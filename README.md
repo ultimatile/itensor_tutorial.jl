@@ -22,7 +22,7 @@ E = \sum_{i=1}^{N/2}
 =\sum_{i=1}^{N/2}\sqrt{h^2-hJ\cos\left(\frac{2i-1}{N}\right)+\frac{J^2}{4}}
 $$
 
-Here, the number of spins $N$ should be even.
+Here, the number of spins $N$ should be even, and the periodic boundary condition is assumed.
 
 ## how to run
 
