@@ -17,9 +17,9 @@ The default value is `periodic=true`.
 ## exact ground state energy
 
 $$
-E = \sum_{i=1}^{N/2}
+E = -\sum_{i=1}^{N/2}
 \sqrt{\left(h-\frac12J\cos \left(\frac{2i-1}{N}\right)\right)^2+\frac{J^2}{4}\sin^2 \left(\frac{2i-1}{N}\right)}
-=\sum_{i=1}^{N/2}\sqrt{h^2-hJ\cos\left(\frac{2i-1}{N}\right)+\frac{J^2}{4}}
+=-\sum_{i=1}^{N/2}\sqrt{h^2-hJ\cos\left(\frac{2i-1}{N}\right)+\frac{J^2}{4}}
 $$
 
 Here, the number of spins $N$ should be even, and the periodic boundary condition is assumed.
