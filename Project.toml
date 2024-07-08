@@ -3,8 +3,12 @@ uuid = "e06914bf-c864-4e50-ae1c-8bb8e2ea13d6"
 authors = ["ultimatile <ultimatile@users.noreply.github.com> and contributors"]
 version = "0.1.0"
 
+[deps]
+ITensorMPS = "0d1a4710-d33b-49a5-8f18-73bdf49b47e2"
+ITensors = "9136182c-28ba-11e9-034c-db9fb085ebd5"
+
 [compat]
-julia = "1.6.7"
+julia = "1.10"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
