@@ -1,0 +1,13 @@
+name = "itensor_tutorial"
+uuid = "e06914bf-c864-4e50-ae1c-8bb8e2ea13d6"
+authors = ["ultimatile <ultimatile@users.noreply.github.com> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1.6.7"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
